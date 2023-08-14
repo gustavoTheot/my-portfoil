@@ -1,0 +1,27 @@
+.navbar{
+    margin: 4rem 0 4rem 0;
+    padding-bottom: 3rem;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d641;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navbar ul li{
+    font-size: 1.25rem;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+
+}
+
+.navbar ul li:hover{
+    transform: scale(1.1);
+}

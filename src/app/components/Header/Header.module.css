@@ -1,0 +1,42 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+}
+
+.headerContainer img{
+    border-radius: 999px;
+    width: 6rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+}
+
+.title span{
+    font-size: 0.875rem;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.socialMedia a svg{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.socialMedia a svg:hover{
+    transform: scale(1.1);
+}

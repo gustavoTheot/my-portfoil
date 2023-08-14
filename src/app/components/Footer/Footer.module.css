@@ -1,0 +1,7 @@
+.footer{
+    margin: 4rem;
+}
+
+.footer span{
+    color: var(--placeholder);
+}

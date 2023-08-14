@@ -1,0 +1,38 @@
+:root {
+  --background: #1A1A1D;
+  --box: #27252E;
+  --text: #E9E9E9;
+  --placeholder: #D6D6D6;
+  --pink: #E82D92;
+  --violet: #B122BD;
+  --blue: #42A8F1;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+}
+
+body, html{
+  color: var(--text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}

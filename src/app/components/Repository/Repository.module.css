@@ -1,0 +1,41 @@
+.repository{
+    display: flex;
+    flex-direction: column;
+
+    width: 40rem;
+    background-color: var(--background);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.repository header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleRepository{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.repository footer{
+    margin-top: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.repository footer span{
+    color: var(--placeholder);
+}
+
+@media(max-width: 700px){
+    .repository{
+        width: 24rem;
+    }
+}
+

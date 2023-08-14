@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    max-width: 900px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+
+    width: 100%;
+}
+
+.navContainer{
+    width: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact ul li span:last-child, .skills ul li{
+    font-size: 0.875rem;
+    color: var(--placeholder);
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skills ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.navContainer ul li span:first-child{
+    font-weight: bold;
+}
+
+.contact .title, .skills span:first-child{
+    font-size: 1.5rem;
+}
+
+.main{
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    border-bottom: 1px solid #d6d6d641;
+    padding-bottom: 2rem;
+}
+
+.aboutContainer span:first-child{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.myRouter{
+    padding-top: 1.5rem;
+}
+
+.myRouter span:first-child{
+    font-size: 1.5rem;
+}
+
+.dataRouter{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.route{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.icon svg{
+    color: var(--placeholder);
+}
+
+.informationRoute{
+    display: flex;
+    flex-direction: column;
+}
+
+.informationRoute span:nth-child(2){
+    font-weight: 600;
+}
+
+.informationRoute span:first-child{
+    font-size: 0.75rem;
+    color: var(--placeholder);
+    margin-bottom: 0.875rem;
+}
+
+.informationRoute span:last-child{
+    font-weight: 800;
+}
+
+.informationRoute p{
+    font-size: 0.875rem;
+    color: var(--text);
+    margin-top: 0.5rem;
+    line-height: 20px;
+}
+
