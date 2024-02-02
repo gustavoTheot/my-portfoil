@@ -30,7 +30,7 @@ export const links = [
   {
     linkedin: 'https://www.linkedin.com/in/gustavo-silva-theotonio/',
     github: 'https://github.com/gustavoTheot',
-    email: '',
+    email: 'gustavotheotonio46@gmail.com',
   },
 ]
 
@@ -68,6 +68,11 @@ export const repository = [
 ]
 
 export const listRouter = [
+  {
+    data: '2023 - 2024',
+    title: 'UFPB Desenvolvedor Fullstack - Bolsista Projeto ESIG',
+    description: `Responsável pelo desenvolvimento de melhorias contínuas e inovações em aplicações web destinadas a instituições de educação, com foco principal no Sistema de Gestão Educacional (SIGEduc). Utilizando diversas tecnologias, destacam-se: Java, JSF (JavaServer Faces), JPA (Java Persistence API), GitHub, Programação Orientada a Objetos (POO), Desenvolvimento Web, Jira, PostgreSQL, Git e GitLab.`
+  },
   {
     data: '2022 - 2023',
     title: 'Ação de Extensão da Universidade Federal da Paraíba  ',
