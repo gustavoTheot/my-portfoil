@@ -24,7 +24,7 @@ export function Header() {
                 <LinkedinIcon size={18} />
               </a>
 
-              <a href={"mailto:"+item.email} target="_blank" rel="noreferrer">
+              <a href="mailto:gustavotheotonio46@gmail.com" target="_blank" rel="noreferrer">
                 <Mail size={18} />
               </a>
             </>
