@@ -1,6 +1,7 @@
 import { links } from '@/database'
 import styles from './Header.module.css'
 import { GithubIcon, LinkedinIcon, Mail } from 'lucide-react'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -24,9 +25,9 @@ export function Header() {
                 <LinkedinIcon size={18} />
               </a>
 
-              <a href="mailto:gustavotheotonio46@gmail.com" target="_blank" rel="noreferrer">
+              <Link href="mailto:gustavotheotonio46@gmail.com" target="_blank" rel="noreferrer">
                 <Mail size={18} />
-              </a>
+              </Link>
             </>
           )
         })}
